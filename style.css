@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilo para o título */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    text-align: center
+}
+
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçmento entre linhas */
+    text-align: center; /* Alinhamento do texto */
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Estilo para as imagens */
+img {
+    display: block; /* Faz a imagem ocupar uma linha inteira */
+    margin: 20px auto; /* Centraliza a imagem horizontal */
+    border-radius: 50%; /* Deixa a imagem circular */
+    width: 400px; /* LArgura da imagem */
+    height: 400px; /* Altura da Imagem */
+
+
+}
