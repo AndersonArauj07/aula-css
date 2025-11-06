@@ -46,6 +46,12 @@ img {
     height: 400px; /* Altura da Imagem */
     border: 3px solid gray;
 }
+/* pseudo classe, mais detalhes: https://www.w3schools.com/css/css_pseudo_classes.asp */
+img:hover {
+    transform: scale(1.05);  /* Aumenta levemente a imagem ao passar o mouse*/
+    transition: transform 0.3s; /* Animação suave*/
+   
+}
 
 .foto-legenda {
     font-size: 12px;
