@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* Padding: espaçmento interno (top, right, botom, left) */
+    /* Padding: 20px 30px 60px 100px
+
+    /* Margin: 2espaçmento externo (top, right, botom, left)
+    /* MArgin: 20px 30px 60px 100px */
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 73vh;
+    align-items: center;
+    background-color: gainsboro;
+
+}
+
+.box {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        width: 80px;
+    }
+}
